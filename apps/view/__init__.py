@@ -1,14 +1,15 @@
 # -*- coding:utf-8 -*-
 
-from .users import users_bp,start_bp
+from .users import users_bp
 
 
 #实例化蓝图
 
 DEFAULT_BLUEPRINT = (
 
+
     (users_bp,'/users'),
-    (start_bp,'/'),
+    # (start_bp,'/'),
 
 )
 
